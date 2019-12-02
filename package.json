@@ -1,0 +1,8 @@
+{
+  "name": "udp-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/messiasGeovani/udp-server.git",
+  "author": "messiasGeovani <messias.geovani.lima@gmail.com>",
+  "license": "MIT"
+}

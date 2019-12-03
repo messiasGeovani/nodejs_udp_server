@@ -6,6 +6,8 @@ const socket = dgram.createSocket('udp4')
 // message controller module import
 const { messageController } = require('./controllers/messageController')
 
+require('./config/logger')
+
 // listenning route config
 socket.on('listenning', async () => {
     // server adress information

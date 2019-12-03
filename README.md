@@ -12,7 +12,7 @@ To install the dependencies, is recommended the yarn package manager:
 yarn install
 ```
 
-Lastly, run the following command in the server root directory:
+After, run the following command in the server root directory:
 
 ##### Production:
 

@@ -4,7 +4,7 @@ const dgram = require('dgram')
 const socket = dgram.createSocket('udp4')
 
 // message controller module import
-const messageController = require('./controllers/messageController')
+const { messageController } = require('./controllers/messageController')
 
 // listenning route config
 socket.on('listenning', async () => {

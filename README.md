@@ -32,6 +32,7 @@ This project uses [Jest](https://github.com/facebook/jest) test framework, and t
   ```
   ├── __tests__               # Automated tests
   ├── src                     # Source files (alternatively `lib` or `app`)
+  ├── tmp                     # Temporary files (logs and storage)
   ├── jest.config.js          # Jest configuration file          
   ├── package.json            # Dependencies and scripts config
   └── yarn.lock               # yarn dependencies configuration file

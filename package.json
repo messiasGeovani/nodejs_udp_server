@@ -6,7 +6,8 @@
   "author": "messiasGeovani <messias.geovani.lima@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "winston": "^3.2.1"
   },
   "scripts": {
     "start": "node src/server.js",

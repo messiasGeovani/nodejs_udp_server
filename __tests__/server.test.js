@@ -1,8 +1,8 @@
-const socket = require('../src/socket').Socket
+const { Socket } = require('../src/socket')
 
 describe('Server', () => {
 
     it('should bind the socket on the port 8000', async () => {
-        expect(await socket.bind(8000))
+        expect(await Socket.bind(8000))
     })
 })
